@@ -1,0 +1,19 @@
+# Directorio de salida generado por Hugo
+public/
+
+# Caché de Hugo para Assets y recursos
+resources/_gen/
+resources/_cache/
+
+# Archivos de caché del módulo Go (si usas módulos Go para temas/módulos)
+go.mod
+go.sum
+
+# Directorios de módulos Go para desarrollo local
+vendor/
+
+# Archivos de configuración locales que no deberían ser versionados (opcional)
+.hugo_build.lock
+.env
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
