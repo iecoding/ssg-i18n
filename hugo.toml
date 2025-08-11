@@ -2,6 +2,26 @@ baseURL = "http://localhost:1313/"
 title = "Mi sitio web estático en Hugo"
 theme = "ssg-i18n"
 
+# Configuración SEO global
+[params]
+  description = "Un sitio web estático moderno construido con Hugo, con soporte multilingüe y optimizado para SEO"
+  author = "Tu Nombre"
+  keywords = ["hugo", "sitio web", "multilingüe", "seo", "bootstrap"]
+  og_image = "/images/og-image.jpg"
+  twitter_creator = "@tunombre"
+
+# Configuración de feeds RSS
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
 # Configuración para múltiples idiomas
 [languages]
   [languages.es]
@@ -10,6 +30,9 @@ theme = "ssg-i18n"
     weight = 10
     contentDir = "content/es"
     baseURL = "http://localhost:1314/"
+    [languages.es.params]
+      description = "Un sitio web estático moderno construido con Hugo, con soporte multilingüe y optimizado para SEO"
+      keywords = ["hugo", "sitio web", "multilingüe", "seo", "bootstrap", "español"]
 
   [languages.en]
     title = "My Awesome Hugo Site"
@@ -17,3 +40,6 @@ theme = "ssg-i18n"
     weight = 20
     contentDir = "content/en"
     baseURL = "http://localhost:1313/"
+    [languages.en.params]
+      description = "A modern static website built with Hugo, featuring multilingual support and SEO optimization"
+      keywords = ["hugo", "website", "multilingual", "seo", "bootstrap", "english"]
