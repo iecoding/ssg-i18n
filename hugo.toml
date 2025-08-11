@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://localhost:1313/"
 title = "Mi sitio web estático en Hugo"
 theme = "ssg-i18n"
 
@@ -7,13 +7,13 @@ theme = "ssg-i18n"
   [languages.es]
     title = "Mi Impresionante Sitio Hugo"
     languageName = "Español"
-    weight = 10 # Orden de aparición, menor peso primero
-    baseURL = "http://example.org/" # La raíz es español
-    contentDir = "content/es" # Directorio para el contenido en español
+    weight = 10
+    contentDir = "content/es"
+    baseURL = "http://localhost:1314/"
 
   [languages.en]
     title = "My Awesome Hugo Site"
     languageName = "English"
     weight = 20
-    baseURL = "http://example.org/en/" # La versión en inglés tendrá un subdirectorio /en/
-    contentDir = "content/en" # Directorio para el contenido en inglés
+    contentDir = "content/en"
+    baseURL = "http://localhost:1313/"

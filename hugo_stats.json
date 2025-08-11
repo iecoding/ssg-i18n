@@ -1,0 +1,52 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "button",
+      "div",
+      "footer",
+      "h1",
+      "h2",
+      "head",
+      "header",
+      "html",
+      "li",
+      "link",
+      "main",
+      "meta",
+      "nav",
+      "p",
+      "script",
+      "span",
+      "strong",
+      "style",
+      "time",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "bg-light",
+      "collapse",
+      "container",
+      "me-auto",
+      "mt-4",
+      "my-4",
+      "nav-item",
+      "nav-link",
+      "navbar",
+      "navbar-brand",
+      "navbar-collapse",
+      "navbar-expand-lg",
+      "navbar-light",
+      "navbar-nav",
+      "navbar-toggler",
+      "navbar-toggler-icon",
+      "py-3",
+      "text-center"
+    ],
+    "ids": [
+      "navbarNav"
+    ]
+  }
+}
